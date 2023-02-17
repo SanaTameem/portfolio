@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #28352F;
+    margin-left: 12px;
+    margin-top: 10px;
+    padding: 10px 12px;
+}
+
+.hamburger{
+    margin-right: 20px;
+    align-items: center;
+    /* padding: 8px; */
+    
+  
+}
+.hamburger img{
+    margin-top: 10px;
+}
+
+body {
+    height: auto;
+
+}
+
+.hero{
+    background-image: url(Images/header-illsutration-mobile@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 90%;
+    
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    padding-top: 70px;
+    
+    height: 192px;
+    margin-left: 24px;
+   
+    
+}
+.hero-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #172B4D;
+    text-align: center;
+    line-height: 52px;
+    font-style: normal;
+    font-family: 'Inter';
+ 
+}
+.hero-span{
+    color: #36B37E;
+}
+
+.hero-container2{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 164px;
+    display: flex;
+  margin-top: 58px;
+    margin-left: 24px;
+
+}
+.hero-description{
+   margin-top: 314;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    font-style: normal;
+    color:#172B4D;
+    font-family: 'Inter';
+    
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    /* width: 170.17px; */
+    width: 60%;
+    height: 20px;
+    margin-left: 102.42px;
+    margin-top: 58px;
+}
+
+.icon {
+
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    
+    margin-right: 20px;
+    float: left;
+}
+
+.action-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 24px;
+    width: 85%;
+    height: 48px;
+    padding-top: 48px;
+}
+.action{
+    margin-top: 4px;
+    padding: 8px;
+}
