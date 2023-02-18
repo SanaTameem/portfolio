@@ -41,13 +41,13 @@
     padding-top: 62px;
   }
   
-  .container1 {
+  .first-container {
     border-radius: 8px;
     background: #ebf0ee;
     outline: 1px solid #d0d9d4;
   }
   
-  .container2 {
+  .second-container {
     width: 327px;
     height: 222px;
     border-radius: 8px;

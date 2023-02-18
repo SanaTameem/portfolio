@@ -1,12 +1,16 @@
 .about-me {
     width: 100%;
     align-items: center;
-  }
+    background-image: url("../Images/illustration-\ about\ me-\ mobile.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
   
+  }
+
   .about-me-text {
     display: flex;
     justify-content: center;
-    background-image: url("../Images/illustration-\ about\ me-\ mobile.svg");
+    background-image: url("../Images/Mask\ Group.svg");
     background-repeat: no-repeat;
     background-position-x: right;
   }
@@ -44,12 +48,11 @@
     justify-content: center;
     padding-top: 25px;
     padding-bottom: 59px;
-    background-image: url("../Assets/Frame.svg");
     background-repeat: no-repeat;
     background-position-x: left;
   }
   
-  .get-my-resume-btn {
+  .get-resume {
     width: 159px;
     height: 48px;
     padding: 12px;
@@ -67,22 +70,24 @@
   
   @media screen and (min-width: 768px) {
     .about-me-btn {
-      background-image: url("../Assets/illustration-about-me-2-desktop.svg");
+      background-image: url("../Image/illustration-about-me-2-desktop.svg");
       background-repeat: no-repeat;
-      background-position-x: left;
+      background-size: cover;
+      /* background-position-x: left; */
     }
   
-    .primary-text-about-me {
+    .about-me-describe {
       background-image: none;
     }
   
     .about-me {
-      background-image: url("../Assets/illustration\ about\ me\ desktop.svg");
+      background-image: url("../Images/illustration\ about\ me\ desktop.svg");
+      background-size: cover;
       background-repeat: no-repeat;
-      background-position-x: right;
+      /* background-position-x: right; */
     }
   
-    .supporting-text-about-me-para {
+    .about-me-paragraph {
       width: 61%;
     }
   }
