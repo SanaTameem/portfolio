@@ -48,8 +48,7 @@
     justify-content: center;
     padding-top: 25px;
     padding-bottom: 59px;
-    background-repeat: no-repeat;
-    background-position-x: left;
+    
   }
   
   .get-resume {
@@ -66,6 +65,10 @@
     color: #fff;
     border-style: none;
     border-radius: 4px;
+  }
+
+  .get-resume:hover {
+    background: #008552;
   }
   
   @media screen and (min-width: 768px) {
