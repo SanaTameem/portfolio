@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-*{
+
+* {
   box-sizing: border-box;
 }
+
 .about-me {
   width: 100%;
   align-items: center;
-  
 }
 
 .about-me-text {
@@ -49,6 +50,7 @@
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
+
   /* padding-top: 25px; */
   padding-bottom: 59px;
   margin-top: 25px;
