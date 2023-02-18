@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+footer {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-div {
+  margin-top: 60px;
+}
+
+.footer-paragraph {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}

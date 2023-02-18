@@ -79,7 +79,6 @@ npm install
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Change Mobile Version]**
 - [ ] **[Finish Mobile Vesion]**
 - [ ] **[Desktop Version]**
 
