@@ -18,7 +18,21 @@
   line-height: 52px;
   padding-top: 22px;
   width: 70%;
+  animation-name: slideInLeft;
+  animation-timing-function: ease-in;
+  animation-duration: 1s;
 }
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-300px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
 
 .indicator {
   display: flex;
