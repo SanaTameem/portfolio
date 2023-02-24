@@ -95,4 +95,15 @@
     padding-top: 52px;
     padding-bottom: 88px;
   }
+
+  .container-all-languages {
+    display: grid;
+    grid-template-columns: 369px 369px 369px;
+    grid-template-rows: 352px;
+    column-gap: 24px;
+  }
+
+  .lang-list2 {
+    width: 80%;
+  }
 }
