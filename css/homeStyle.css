@@ -6,11 +6,9 @@
   box-sizing: border-box;
 }
 
-header {
+.nav-bar {
   display: flex;
   justify-content: space-between;
-  width: 100%;
-  height: 50px;
 }
 
 .nav-title {
@@ -20,13 +18,18 @@ header {
   font-weight: 600;
   font-size: 20px;
   line-height: 28px;
-  display: flex;
+
+  /* display: flex;
   align-items: center;
-  text-align: center;
+  text-align: center; */
   color: #28352f;
   margin-left: 12px;
   margin-top: 10px;
   padding: 10px 12px;
+}
+
+.nav-desktop {
+  display: none;
 }
 
 .hamburger {
@@ -42,20 +45,37 @@ header {
   background-image: url(../Images/header-illsutration-mobile@2x.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: auto;
+
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+
+.hero-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero-container {
-  width: 100%;
-  height: 192px;
+  width: 80%;
   display: flex;
+  justify-content: center;
+  height: 114px;
   align-items: center;
-  padding-top: 70px;
-  margin-left: 24px;
+  margin-top: 80px;
+
+  /* padding-top: 70px; */
+
+  /* margin-left: 24px; */
 }
 
 .hero-title {
-  width: 80%;
+  margin-top: 80px;
+
+  /* width: 80%; */
   font-size: 40px;
   font-weight: 700;
   color: #172b4d;
@@ -78,7 +98,7 @@ header {
 }
 
 .hero-description {
-  margin-top: 314;
+  margin-top: 53px;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
@@ -93,7 +113,7 @@ header {
   justify-content: center;
   width: 100%;
   height: 20px;
-  margin-top: 58px;
+  margin-top: 108px;
 }
 
 .icon {
@@ -111,7 +131,7 @@ header {
   margin-left: 24px;
   width: 85%;
   height: 48px;
-  padding-top: 48px;
+  margin-top: 64px;
 }
 
 .action {
@@ -119,4 +139,116 @@ header {
   justify-content: center;
   margin-top: 4px;
   padding: 8px;
+}
+
+@media screen and (min-width: 786px) {
+  .home-page {
+    background-image: url("../Images/Header-llustration-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 105%;
+    width: 100%;
+
+    /* padding-bottom: 280px; */
+  }
+
+  .hero {
+    background-image: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+
+    /* height: 800px; */
+  }
+
+  .nav-bar {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-desktop {
+    display: inline-block;
+    list-style-type: none;
+    padding: 20px;
+    position: fixed;
+    font-weight: 900;
+    color: #172b4d;
+  }
+
+  .nav-desktop-link {
+    float: left;
+    padding: 0 20px;
+    font-family: 'Inter', sans-serif;
+    font-style: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: center;
+    color: #344563;
+  }
+
+  .nav-title,
+  .hamburger {
+    display: none;
+  }
+
+  .hero-main-container {
+    display: flex;
+    flex-direction: column;
+    width: 920px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 920px;
+  }
+
+  .hero-title {
+    /* padding-top: 232px; */
+    font-size: 48px;
+    font-weight: bold;
+  }
+
+  .works {
+    margin-top: 200px;
+  }
+
+  .hero-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* margin: 90px 0 0 0; */
+    height: 114px;
+  }
+
+  .hero-description {
+    margin: 0;
+
+    /* height: 114px; */
+    padding: 0 30px;
+    width: 90%;
+
+    /* margin-top: 64px; */
+  }
+
+  .social {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 44px;
+  }
+
+  .social-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

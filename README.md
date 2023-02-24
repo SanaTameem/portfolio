@@ -79,8 +79,7 @@ npm install
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Finish Mobile Vesion]**
-- [ ] **[Desktop Version]**
+- [ ] **[Desktop Version Changes]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

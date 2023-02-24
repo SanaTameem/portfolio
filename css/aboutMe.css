@@ -77,27 +77,36 @@
 }
 
 @media screen and (min-width: 768px) {
-  .about-me-btn {
-    background-image: url("../Image/illustration-about-me-2-desktop.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    /* background-position-x: left; */
-  }
-
-  .about-me-describe {
-    background-image: none;
-  }
-
   .about-me {
-    background-image: url("../Images/illustration\ about\ me\ desktop.svg");
-    background-size: cover;
+    background-image: url("../Images/Frame\ \(4\).svg");
     background-repeat: no-repeat;
 
-    /* background-position-x: right; */
+    /* background-size: cover; */
+    background-position-x: right;
+    margin-top: 110px;
+  }
+
+  .about-me-btn {
+    background-image: none;
   }
 
   .about-me-paragraph {
     width: 61%;
+  }
+
+  .about-me-text {
+    background-image: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-me-describe {
+    background-image: url("../Images/illustration-about-me-2-desktop.svg");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

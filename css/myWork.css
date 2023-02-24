@@ -132,4 +132,22 @@
   .work-text {
     padding-top: 80px;
   }
+
+  .myworks-container {
+    display: grid;
+    grid-template-columns: 369px 369px 369px;
+    grid-template-rows: repeat(2, 474px);
+    column-gap: 24px;
+    row-gap: 32px;
+    padding-left: 143px;
+    padding-right: 143px;
+  }
+
+  .second-container {
+    width: 369px;
+  }
+
+  .works {
+    margin-top: 460px;
+  }
 }

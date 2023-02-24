@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/myWork.css">
     <link rel="stylesheet" href="css/aboutMe.css">
     <link rel="stylesheet" href="css/languages.css">
-    <link rel="stylesheet" href="css/footer.css">
+    <!-- <link rel="stylesheet" href="css/footer.css"> -->
     <link rel="stylesheet" href="css/form.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,40 +17,49 @@
     <title>Portfolio</title>
 </head>
 <body>
-<section>
+<section class="home-page">
     <header>
-        <a href="#" class="nav-title">Welcome</a>
-        <nav class="nav-bar">
-            <a href="#" class="hamburger"><img src="Images/Enabled.svg" alt="hamburger"></a>
+      <nav class="nav-bar">
+          <a href="#" class="nav-title">Welcome</a>
+          <a href="#" class="hamburger"><img src="Images/Enabled.svg" alt="hamburger"></a>
+          <ul class="nav-desktop">
+            <li class="nav-desktop-link">Portfolio</li>
+            <li  class="nav-desktop-link">About</li>
+            <li  class="nav-desktop-link">Contact</li>
+          </ul>
         </nav>
     </header>
     <section class="hero">
+      <div class="hero-main-container">
         <div class="hero-container">
                 <h1 class="hero-title"> Hey there. I’m Sana <br>
                     <span class="hero-span">I’m a software developer</span>
                 </h1>
         </div>
         <div class="hero-container2">
-            <p class="hero-description">I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, <br> don’t hestiate to contact me.</p>
+            <p class="hero-description">I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
         </div>
 
         <div class="social">
             <ul class="social-list">
-                <li class="icon"><a href="#"><img src="Images/twitter (3).svg" alt="twitter-img"></a></li>
-                <li class="icon"><a href="#"><img src="Images/Linkedin icon (1).svg" alt="linkedIn-img"></a></li>
-                <li class="icon"><a href="#"><img src="Images/medium (1).svg" alt="medium"></a></li>
-                <li class="icon"><a href="#"><img src="Images/github.svg" alt="github-img"></a></li>
-                <li class="icon"><a href="#"><img src="Images/angellist.svg" alt="angellist-img"></a></li>
+              <li class="icon"><a href="#"><img src="Images/github.svg" alt="github-img"></a></li>
+              <li class="icon"><a href="#"><img src="Images/Linkedin icon (1).svg" alt="linkedIn-img"></a></li>
+              <li class="icon"><a href="#"><img src="Images/angellist.svg" alt="angellist-img"></a></li>
+              <li class="icon"><a href="#"><img src="Images/twitter (3).svg" alt="twitter-img"></a></li>
+              <li class="icon"><a href="#"><img src="Images/medium (1).svg" alt="medium"></a></li>
+                
+                
             </ul>
         </div>
         <div class="action-icon">
             <a href="#"><img class="action" src="Images/Disabled.svg" alt=""></a>
         </div>
+      </div>
     </section>
 
 
     <!--My Works Section -->
-    <section>
+    <section class="works">
         <div class="myworks-text-container">
           <h2 class="myworks-text">My Recent Works</h2>
         </div>
@@ -158,7 +167,7 @@
           <p class="about-me-paragraph">
             I can help you build a product , feature or website Look through some
             of my work and experience! If you like what you see and have a project
-            you need coded, <br> don’t  hestiate to contact me.
+            you need coded, don’t  hestiate to contact me.
           </p>
         </div>
         <div class="about-me-btn">
@@ -209,12 +218,19 @@
           
       </div>
 
-      <!--Footer section-->
-      <section class="footer">
+
+      <!--Form section-->
+      <div class="back-imge">
+  <section class="all-footer-form-social">
+    
+    <!-- <div class="background-picture"> -->
+      <div class="footer">
         <div class="footer-div">
           <p class="footer-paragraph">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
         </div>
-      </section>
+        <div class="middle-pic">
+        </div>
+      </div>
 
       <!--Form section-->
       <section class="form-container">
@@ -224,16 +240,21 @@
           <li class="form-list-items"><input type="email" name="userEmail" id="email-input" placeholder="Email address" required></li>
           <li class="form-list-items"><textarea name="userMessage" id="message" cols="30" rows="10" maxlength="500" required placeholder="Enter text here">Enter text here</textarea></li>
         </ul>
-        <button class="form-btn">Get in touch</button>
+        <div class="form-btn-div">
+            <button class="form-btn">Get in touch</button>
+        </div>
       </form>
 
-      <div class="social">
-        <ul class="social-list">
+      <div class="social-form">
+        <ul class="social-list-form">
+          <li class="icon"><a href="#"><img src="Images/github.svg" alt="github-img"></a></li>
+          <li class="icon"><a href="#"><img src="Images/Linkedin icon (1).svg" alt="linkedIn-img"></a></li>
+          <li class="icon"><a href="#"><img src="Images/angellist.svg" alt="angellist-img"></a></li>
             <li class="icon"><a href="#"><img src="Images/twitter (3).svg" alt="twitter-img"></a></li>
-            <li class="icon"><a href="#"><img src="Images/Linkedin icon (1).svg" alt="linkedIn-img"></a></li>
+            
             <li class="icon"><a href="#"><img src="Images/medium (1).svg" alt="medium"></a></li>
-            <li class="icon"><a href="#"><img src="Images/github.svg" alt="github-img"></a></li>
-            <li class="icon"><a href="#"><img src="Images/angellist.svg" alt="angellist-img"></a></li>
+            
+            
         </ul>
       </div>
         <div class="my-email-div">
@@ -241,7 +262,6 @@
         </div>
     </div>
     </section>
-
 </section>
 
 </body>
