@@ -1,10 +1,14 @@
+<<<<<<< HEAD
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
+=======
+>>>>>>> main
 * {
   box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 .all-footer-form-social {
   display: flex;
   flex-direction: column;
@@ -35,12 +39,18 @@ footer {
 }
 
 /* Form design */
+=======
+>>>>>>> main
 .form-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+<<<<<<< HEAD
   margin-top: 300px;
+=======
+  margin-top: 58px;
+>>>>>>> main
   height: auto;
 }
 
@@ -103,15 +113,25 @@ footer {
   background: #008552;
 }
 
+<<<<<<< HEAD
 .social-form {
+=======
+.social {
+>>>>>>> main
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+<<<<<<< HEAD
   margin-top: 50px;
 }
 
 .icon-social-form {
+=======
+}
+
+.icon {
+>>>>>>> main
   list-style-type: none;
   display: flex;
   justify-content: space-between;
@@ -138,6 +158,7 @@ footer {
   text-align: center;
   color: #42526e;
 }
+<<<<<<< HEAD
 
 @media screen and (min-width: 786px) {
   .all-footer-form-social {
@@ -255,3 +276,5 @@ footer {
     padding-bottom: 0;
   }
 }
+=======
+>>>>>>> main
