@@ -73,8 +73,6 @@
   transition: all 1s;
 }
 
-
-
 .get-resume:hover {
   background: #008552;
   transform: translateY(-20px);
