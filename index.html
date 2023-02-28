@@ -72,7 +72,7 @@
       <section class="myworks-container">
         <div class="first-container">
           <div class="second-container">
-            <h4 class="title-languages">Multi-Post Stories Gain+Glory</h4>
+            <h3 class="title-languages">Multi-Post Stories Gain+Glory</h3>
             <ul class="list-languages">
               <li class="languages">Ruby on rails</li>
               <li class="languages">css</li>
@@ -86,7 +86,7 @@
         </div>
         <div class="first-container">
           <div class="second-container">
-            <h4 class="title-languages">Multi-Post Stories Gain+Glory</h4>
+            <h3 class="title-languages">Multi-Post Stories Gain+Glory</h3>
             <ul class="list-languages">
               <li class="languages">Ruby on rails</li>
               <li class="languages">css</li>
@@ -100,7 +100,7 @@
         </div>
         <div class="first-container">
           <div class="second-container">
-            <h4 class="title-languages">Multi-Post Stories Gain+Glory</h4>
+            <h3 class="title-languages">Multi-Post Stories Gain+Glory</h3>
             <ul class="list-languages">
               <li class="languages">Ruby on rails</li>
               <li class="languages">css</li>
@@ -114,7 +114,7 @@
         </div>
         <div class="first-container">
           <div class="second-container">
-            <h4 class="title-languages">Multi-Post Stories Gain+Glory</h4>
+            <h3 class="title-languages">Multi-Post Stories Gain+Glory</h3>
             <ul class="list-languages">
               <li class="languages">Ruby on rails</li>
               <li class="languages">css</li>
@@ -128,7 +128,7 @@
         </div>
         <div class="first-container">
           <div class="second-container">
-            <h4 class="title-languages">Multi-Post Stories Gain+Glory</h4>
+            <h3 class="title-languages">Multi-Post Stories Gain+Glory</h3>
             <ul class="list-languages">
               <li class="languages">Ruby on rails</li>
               <li class="languages">css</li>
@@ -142,7 +142,7 @@
         </div>
         <div class="first-container">
           <div class="second-container">
-            <h4 class="title-languages">Multi-Post Stories Gain+Glory</h4>
+            <h3 class="title-languages">Multi-Post Stories Gain+Glory</h3>
             <ul class="list-languages">
               <li class="languages">Ruby on rails</li>
               <li class="languages">css</li>
@@ -182,7 +182,7 @@
         
           <div class="language-sub-container">
             <img src="Images/icon-languages.svg" class="languages-icon" alt="Globe icon">
-            <h4 class="languages-heading" >Languages</h4>
+            <h3 class="languages-heading" >Languages</h3>
             <ul class="lang-list1">
               <li class="end-languages">JavaScript</li>
               <li class="end-languages">Ruby</li>
@@ -193,8 +193,8 @@
 
 
           <div class="language-sub-container">
-            <img src="Images/icon-frameworks.svg" class="Images-icon" alt="frameworks">
-            <h4 class="languages-heading" >Frameworks</h4>
+            <img src="Images/icon-frameworks.svg" class="Images-icon" alt="frameworks icon">
+            <h3 class="languages-heading" >Frameworks</h3>
             <ul class="lang-list2">
               <li class="end-languages">Bootstrap</li>
               <li class="end-languages">Ruby on rails</li>
@@ -205,8 +205,8 @@
           </div>
 
           <div class="language-sub-container">
-            <img src="Images/icon-skills.svg" class="skills-icon" alt="Languages icon">
-            <h4 class="languages-heading" >Languages</h4>
+            <img src="Images/icon-skills.svg" class="skills-icon" alt="skills icon">
+            <h3 class="languages-heading" >Skills</h3>
             <ul class="lang-list3">
               <li class="end-languages">Codekit</li>
               <li class="end-languages">GitHub</li>
@@ -235,11 +235,20 @@
       <!--Form section-->
       <section class="form-container">
       <form action="https://formspree.io/html" method="post" class="my-form">
-        <ul class="form-list">
-          <li class="form-list-items"><input type="text" name="userName" id="name-input" placeholder="Full name" maxlength="30" required></li>
-          <li class="form-list-items"><input type="email" name="userEmail" id="email-input" placeholder="Email address" required></li>
-          <li class="form-list-items"><textarea name="userMessage" id="message" cols="30" rows="10" maxlength="500" required placeholder="Enter text here">Enter text here</textarea></li>
-        </ul>
+        <div class="form-list">
+          <label class="form-list-items" for="name-input">
+            <input type="text" name="userName" id="name-input" placeholder="Full name" maxlength="30" required>
+          </label>
+          
+          <label class="form-list-items" for="email-input">
+            <input type="email" name="userEmail" id="email-input" placeholder="Email address" required>
+          </label>
+        
+          <label class="form-list-items" for="message">
+            <textarea name="userMessage" id="message" cols="30" rows="10" maxlength="500" required placeholder="Enter text here">Enter text here</textarea>
+          </label>
+         
+        </div>
         <div class="form-btn-div">
             <button class="form-btn">Get in touch</button>
         </div>
