@@ -236,18 +236,25 @@
       <section class="form-container">
       <form action="https://formspree.io/html" method="post" class="my-form">
         <div class="form-list">
-          <label class="form-list-items" for="name-input">
-            <input type="text" name="userName" id="name-input" placeholder="Full name" maxlength="30" required>
+          <div class="form-list-items">
+          <label  for="name-input">
+           Name 
           </label>
-          
-          <label class="form-list-items" for="email-input">
-            <input type="email" name="userEmail" id="email-input" placeholder="Email address" required>
+          <input type="text" name="userName" id="name-input" placeholder="Full name" maxlength="30" required>
+        </div>
+
+        <div class="form-list-items">
+          <label for="email-input">
+          Email
           </label>
-        
+          <input type="email" name="userEmail" id="email-input" placeholder="Email address" required>
+        </div>
+        <div class="form-list-items">
           <label class="form-list-items" for="message">
-            <textarea name="userMessage" id="message" cols="30" rows="10" maxlength="500" required placeholder="Enter text here">Enter text here</textarea>
+            Message 
           </label>
-         
+          <textarea name="userMessage" id="message" cols="30" rows="10" maxlength="500" required placeholder="Enter text here">Enter text here</textarea>
+          </div>
         </div>
         <div class="form-btn-div">
             <button class="form-btn">Get in touch</button>
