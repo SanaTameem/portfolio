@@ -150,10 +150,12 @@
 
     /* padding-bottom: 280px; */
   }
-.nav-desktop-link a{
-  text-decoration: none;
-  color: #344563;
-}
+
+  .nav-desktop-link a {
+    text-decoration: none;
+    color: #344563;
+  }
+
   .hero {
     background-image: none;
     display: flex;
