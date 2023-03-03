@@ -6,6 +6,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+   - [Video Record](#video-record)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -33,6 +34,10 @@ CSS
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://sanatameem.github.io/portfolio/)
+
+##  Video Record <a name="video-record"></a>
+
+- [Live Demo Link](https://www.loom.com/share/7f71d93e4bb1452881ee65825f1c8a17)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

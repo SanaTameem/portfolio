@@ -96,7 +96,7 @@ footer {
   line-height: 24px;
   box-sizing: content-box;
   border: none;
-  color: #fff;
+  color: #0d0d0d;
 }
 
 .form-btn:hover {
@@ -137,6 +137,10 @@ footer {
   line-height: 32px;
   text-align: center;
   color: #42526e;
+}
+
+label {
+  visibility: hidden;
 }
 
 @media screen and (min-width: 786px) {

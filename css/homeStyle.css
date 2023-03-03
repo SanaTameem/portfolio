@@ -86,7 +86,7 @@
 }
 
 .hero-span {
-  color: #36b37e;
+  color: #1d6346;
 }
 
 .hero-container2 {
@@ -149,6 +149,11 @@
     width: 100%;
 
     /* padding-bottom: 280px; */
+  }
+
+  .nav-desktop-link a {
+    text-decoration: none;
+    color: #344563;
   }
 
   .hero {
