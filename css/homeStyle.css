@@ -11,6 +11,8 @@
   justify-content: space-between;
 }
 
+
+
 .nav-title {
   text-decoration: none;
   font-family: "Inter", sans-serif;
@@ -42,10 +44,20 @@
 }
 
 section.mobile-menu-container {
+  padding-top: 70px;
   width: 100%;
   position: fixed;
   height: 100vh;
   background-color: #fff;
+  display: none;
+}
+
+section.mobile-menu-container a{
+  color: #3A4A42;
+  text-decoration: none;
+}
+
+section.visible {
   display: block;
 }
 
@@ -67,10 +79,9 @@ section.mobile-menu-container {
 }
 
 .menu-icon {
-  /* margin-top: 60px; */
-  position: absolute;
-  right: 1;
-  top: 1;
+  position: fixed;
+  top: 35px;
+  right: 35px;
 }
 
 .hero {
