@@ -11,8 +11,6 @@
   justify-content: space-between;
 }
 
-
-
 .nav-title {
   text-decoration: none;
   font-family: "Inter", sans-serif;
@@ -52,8 +50,8 @@ section.mobile-menu-container {
   display: none;
 }
 
-section.mobile-menu-container a{
-  color: #3A4A42;
+section.mobile-menu-container a {
+  color: #3a4a42;
   text-decoration: none;
 }
 
@@ -65,7 +63,7 @@ section.visible {
   color: #3a4a42;
   display: flex;
   padding-left: 28px;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -223,11 +221,11 @@ section.visible {
     float: left;
     padding: 0 20px;
     font-family: "Inter", sans-serif;
-    font-style: 400;
+    font-weight: 400;
     font-size: 15px;
     line-height: 20px;
     text-align: center;
-    vertical-align: center;
+    vertical-align: middle;
     color: #344563;
   }
 
