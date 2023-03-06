@@ -179,11 +179,10 @@ footer {
 
   .footer-paragraph {
     font-size: 30px;
-    font-style: bold;
     line-height: 52px;
     line-height: 143%;
     text-align: left;
-    vertical-align: center;
+    vertical-align: middle;
     padding: 0;
     margin: 0;
   }
@@ -197,7 +196,7 @@ footer {
   }
 
   .footer-div {
-    margin: 150 0 0 0;
+    margin: 150px 0 0 0;
   }
 
   .form-container {
