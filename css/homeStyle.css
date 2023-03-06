@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
 
 * {
   margin: 0;
@@ -13,7 +13,7 @@
 
 .nav-title {
   text-decoration: none;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -39,6 +39,38 @@
 
 .hamburger img {
   margin-top: 10px;
+}
+
+section.mobile-menu-container {
+  width: 100%;
+  position: fixed;
+  height: 100vh;
+  background-color: #fff;
+  display: block;
+}
+
+.mobile-menu {
+  color: #3a4a42;
+  display: flex;
+  padding-left: 28px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  flex-direction: column;
+  list-style: none;
+}
+
+.mobile-menu li {
+  margin-bottom: 40px;
+}
+
+.menu-icon {
+  /* margin-top: 60px; */
+  position: absolute;
+  right: 1;
+  top: 1;
 }
 
 .hero {
@@ -82,7 +114,7 @@
   text-align: center;
   line-height: 52px;
   font-style: normal;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .hero-span {
@@ -105,7 +137,7 @@
   text-align: center;
   font-style: normal;
   color: #172b4d;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .social {
@@ -179,7 +211,7 @@
   .nav-desktop-link {
     float: left;
     padding: 0 20px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: 400;
     font-size: 15px;
     line-height: 20px;
