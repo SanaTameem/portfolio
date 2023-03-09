@@ -402,9 +402,10 @@
   }
 
   .popup-main-container {
-   height: 100vh;
+    height: 100vh;
     overflow: scroll;
   }
+
   .pop-div-1 {
     margin-top: 20px;
     order: 1;
