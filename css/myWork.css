@@ -28,7 +28,7 @@
   position: relative;
   padding: 20px;
   align-items: center;
-  height: 98%;
+  height: 730px;
   background-color: white;
 }
 
@@ -354,9 +354,7 @@
   }
 
   .popup-descrip {
-    width: 90%;
-    height: 151px;
-    margin-bottom: 24px;
+    width: 100%;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
@@ -404,9 +402,9 @@
   }
 
   .popup-main-container {
+   height: 100vh;
     overflow: scroll;
   }
-
   .pop-div-1 {
     margin-top: 20px;
     order: 1;
