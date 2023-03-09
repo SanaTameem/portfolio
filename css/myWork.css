@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleacontainerpis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 * {
   box-sizing: border-box;
@@ -21,6 +21,180 @@
   animation-name: slideInLeft;
   animation-timing-function: ease-in;
   animation-duration: 1s;
+}
+
+.popup-main-container {
+  border-radius: 16px;
+  position: relative;
+  padding: 20px;
+  align-items: center;
+  height: 730px;
+  background-color: white;
+}
+
+.overlay {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  padding: 24px;
+  backdrop-filter: blur(4px);
+  background: #c1c7d0b5;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-popup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vh;
+  height: 100vh;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  background-color: white;
+}
+
+.project-image-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.project-image {
+  width: 100%;
+}
+
+.project-image2 {
+  display: none;
+}
+
+.title-popup {
+  width: 311px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  margin-bottom: 12px;
+  margin-top: 0 !important;
+}
+
+.tech-used {
+  list-style-type: none;
+  display: flex;
+  margin-bottom: 12px;
+  width: 311px;
+  padding-left: 0;
+}
+
+.tech-used li {
+  padding: 10px;
+  margin-right: 10px;
+  background-color: #ebf0ee;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  border-radius: 4px;
+  letter-spacing: 0.03em;
+  color: #3a4a42;
+}
+
+.right-top-corner {
+  position: absolute;
+  top: 14px;
+  right: 36px;
+}
+
+.close-btn-image55 {
+  content: url("../Images/Icon - Cancel.svg");
+}
+
+.close-btn {
+  width: 25px;
+  height: 25px;
+  background: none;
+  color: #fff;
+  border: none;
+  font-size: 50px;
+  cursor: pointer;
+  float: right;
+}
+
+.popup-descrip {
+  width: 311px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin-bottom: 16px;
+}
+
+.btn-container {
+  display: flex;
+  position: absolute;
+  align-items: center;
+}
+
+.view-project-btn1 {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 141px;
+  height: 48px;
+  left: 0;
+  top: 4px;
+  background: #36b37f;
+  border-radius: 4px;
+  margin-right: 16px;
+  border: none;
+}
+
+.view-project-btn1 a {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.view-project-btn2 {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 141px;
+  height: 48px;
+  left: 0;
+  top: 4px;
+  background: #36b37f;
+  border-radius: 4px;
+  border: none;
+}
+
+.view-project-btn2 a {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.title-techs-desktop {
+  display: none;
 }
 
 @keyframes slideInLeft {
@@ -87,13 +261,16 @@
 .list-languages {
   display: flex;
   justify-content: center;
+  align-items: center;
   padding-top: 16px;
   list-style-type: none;
 }
 
 .languages {
+  height: 40px;
+  text-align: center;
   margin-left: 5px;
-  padding: 8px 11px;
+  padding: 10px 8px;
   font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 12px;
@@ -128,6 +305,61 @@
 }
 
 @media screen and (min-width: 768px) {
+  .project-image-container {
+    margin-top: 50px;
+  }
+
+  .project-image {
+    content: url("../Images/Snapshoot Portfolio3.svg");
+    width: 100%;
+  }
+
+  .close-btn-image55 {
+    content: url("../Images/Disabled3.svg");
+  }
+
+  .button-heading {
+    width: 90%;
+    margin-top: 84px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+  }
+
+  .title-techs {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .tech-used {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 12px;
+    width: 90%;
+  }
+
+  .tech-used li {
+    text-align: center;
+    column-gap: 10px;
+  }
+
+  .title-popup {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .popup-descrip {
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
   .work-container {
     display: grid;
     grid-template-columns: 327px 327px 327px;
@@ -162,5 +394,33 @@
 
   .works {
     margin-top: 460px;
+  }
+
+  .overlay {
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+
+  .popup-main-container {
+    height: 100vh;
+    overflow: scroll;
+  }
+
+  .pop-div-1 {
+    margin-top: 20px;
+    order: 1;
+    width: 60%;
+  }
+
+  .pop-div-2 {
+    order: 3;
+  }
+
+  .pop-div-3 {
+    margin-top: 30px;
+    right: 0;
+    margin-right: 3%;
+    order: 2;
+    width: 40%;
   }
 }

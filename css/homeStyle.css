@@ -229,6 +229,17 @@ section.visible {
     color: #344563;
   }
 
+  .nav-desktop-link a {
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    color: #344563;
+  }
+
   .nav-title,
   .hamburger {
     display: none;
