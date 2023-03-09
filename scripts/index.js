@@ -96,29 +96,36 @@ const projectPopupMobile = (id,title,discription,imageLink,technologies,liveLink
   <img class="project-image" src="${imageLink[0]}" alt="proj-img">
   <img class="project-image2" src="Images/Snapshoot Portfolio3.svg" alt="proj-img">
   <div class="right-top-corner" >
-  <button class="close-btn" id="close-btn-${id}">&times</button>
+    <button class="close-btn" id="close-btn-${id}">
+      <img class="close-btn-image55" src="./Images/Disabled3.svg" >      
+    </button>
   </div>
 </div>
 
 <div class="title-techs">
-<h2 class="title-popup">${title}
-</h2>
-<ul class="tech-used">
-    <li>${technologies[0]}</li>
-    <li>${technologies[1]}</li>
-    <li>${technologies[2]}</li>
-</ul>
-<p class="popup-descrip">${discription}</p>
- <div class="btn-container">
-  <button class="view-project-btn1">
-    <a href="${liveLink}">See Live</a>
-    <img src="Images/Icon - Export.svg" alt="icon2">
-  </button>
-  <button class="view-project-btn2">
-  <a href="${sourceLink}">See Source</a>
-    <img src="Images/Icon -GitHub.svg" alt="github">
-  </button>
-</div>
+  <div class="pop-div-1">
+    <h2 class="title-popup">${title}
+    </h2>
+    <ul class="tech-used">
+        <li>${technologies[0]}</li>
+        <li>${technologies[1]}</li>
+        <li>${technologies[2]}</li>
+    </ul>
+  </div>
+  <div class="pop-div-2"> 
+  <p class="popup-descrip ">${discription}</p>
+  </div>
+  
+  <div class="btn-container pop-div-3">
+    <button class="view-project-btn1">
+      <a href="${liveLink}">See Live</a>
+      <img src="Images/Icon - Export.svg" alt="icon2">
+    </button>
+    <button class="view-project-btn2">
+    <a href="${sourceLink}">See Source</a>
+      <img src="Images/Icon -GitHub.svg" alt="github">
+    </button>
+  </div>
 </div>
 </div>
 </div>
@@ -135,7 +142,7 @@ projectList.forEach((project)=>{
   showBtn.addEventListener('click',function showPop(){
     const popupShow = document.getElementById(`popup-${project.id}`);
     console.log(popupShow);
-    popupShow.style.display ='block';
+    popupShow.style.display ='flex';
 });
 });
 
