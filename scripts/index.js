@@ -179,3 +179,14 @@ CloseBtn.addEventListener('click', () => {
 Menu.addEventListener('click', () => {
   Menu.classList.remove('visible');
 });
+
+// form validation
+const myform = document.querySelector('.my-form');
+const email = document.getElementById('email-input');
+const errorMessage = document.querySelector('.error-message');
+myform.addEventListener('submit', (event) => {
+  if (email.value !== email.value.toLowerCase()) {
+    event.preventDefault();
+    errorMessage.textContent = 'Your email should be in lowercase';
+  }
+});
