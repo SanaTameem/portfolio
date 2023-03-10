@@ -4,7 +4,16 @@
   box-sizing: border-box;
 }
 
+.form-btn-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 .error-message {
+  margin-top: 24px;
+  width: 50%;
   color: #f00;
   font-family: "Inter", sans-serif;
 }
