@@ -8,8 +8,12 @@ const projectList = [
   {
     id: 1,
     title: 'Multi-Post Stories',
-    discription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    imageLink: ['Images/Snapshoot Portfolio.svg', 'Images/Snapshoot Portfolio3.svg'],
+    discription:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    imageLink: [
+      'Images/Snapshoot Portfolio.svg',
+      'Images/Snapshoot Portfolio3.svg',
+    ],
     technologies: ['Ruby on Rains', 'Bootstrap', 'Javascript', 'html'],
     liveLink: '#',
     sourceLink: '#',
@@ -18,9 +22,20 @@ const projectList = [
   {
     id: 2,
     title: 'Game Project',
-    discription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    imageLink: ['Images/Snapshoot Portfolio.svg', 'Images/Snapshoot Portfolio3.svg'],
-    technologies: ['Ruby on Rains', 'Bootstrap', 'Javascript', 'html', 'Codepen', 'Codekit'],
+    discription:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    imageLink: [
+      'Images/Snapshoot Portfolio.svg',
+      'Images/Snapshoot Portfolio3.svg',
+    ],
+    technologies: [
+      'Ruby on Rains',
+      'Bootstrap',
+      'Javascript',
+      'html',
+      'Codepen',
+      'Codekit',
+    ],
     liveLink: '#',
     sourceLink: '#',
   },
@@ -28,8 +43,12 @@ const projectList = [
   {
     id: 3,
     title: 'Social App',
-    discription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    imageLink: ['Images/Snapshoot Portfolio.svg', 'Images/Snapshoot Portfolio3.svg'],
+    discription:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    imageLink: [
+      'Images/Snapshoot Portfolio.svg',
+      'Images/Snapshoot Portfolio3.svg',
+    ],
     technologies: ['Ruby on Rains', 'Bootstrap', 'Javascript', 'html'],
     liveLink: '#',
     sourceLink: '#',
@@ -38,8 +57,12 @@ const projectList = [
   {
     id: 4,
     title: 'Photo App',
-    discription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    imageLink: ['Images/Snapshoot Portfolio.svg', 'Images/Snapshoot Portfolio3.svg'],
+    discription:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    imageLink: [
+      'Images/Snapshoot Portfolio.svg',
+      'Images/Snapshoot Portfolio3.svg',
+    ],
     technologies: ['Ruby on Rains', 'Bootstrap', 'Javascript', 'html'],
     liveLink: '#',
     sourceLink: '#',
@@ -48,8 +71,12 @@ const projectList = [
   {
     id: 5,
     title: 'Calculator',
-    discription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    imageLink: ['Images/Snapshoot Portfolio.svg', 'Images/Snapshoot Portfolio3.svg'],
+    discription:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    imageLink: [
+      'Images/Snapshoot Portfolio.svg',
+      'Images/Snapshoot Portfolio3.svg',
+    ],
     technologies: ['Ruby on Rains', 'Bootstrap', 'Javascript', 'html'],
     liveLink: '#',
     sourceLink: '#',
@@ -58,8 +85,12 @@ const projectList = [
   {
     id: 6,
     title: 'Help the Innocent bird Game',
-    discription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    imageLink: ['Images/Snapshoot Portfolio.svg', 'Images/Snapshoot Portfolio3.svg'],
+    discription:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    imageLink: [
+      'Images/Snapshoot Portfolio.svg',
+      'Images/Snapshoot Portfolio3.svg',
+    ],
     technologies: ['Ruby on Rains', 'Bootstrap', 'Javascript', 'html'],
     liveLink: '#',
     sourceLink: '#',
@@ -84,20 +115,30 @@ const projectStructure = (id, title, discription, imageLink, technologies) => `
 `;
 
 projectList.forEach((project) => {
-  const htmlAdd = projectStructure(project.id,
+  const htmlAdd = projectStructure(
+    project.id,
     project.title,
     project.discription,
     project.imageLink,
     project.technologies,
     project.liveLink,
-    project.sourceLink);
+    project.sourceLink,
+  );
   // myWorksSection.insertAdjacentHTML('afterend',htmlAdd);
   myWorksSection.innerHTML += htmlAdd;
 });
 
 // Pop up section
 // pop up for mobile:
-const projectPopupMobile = (id, title, discription, imageLink, technologies, liveLink, sourceLink) => `
+const projectPopupMobile = (
+  id,
+  title,
+  discription,
+  imageLink,
+  technologies,
+  liveLink,
+  sourceLink,
+) => `
 <div class="overlay" id="popup-${id}">
 <div class="popup-main-container">
 <div class="project-image-container">
@@ -140,13 +181,15 @@ const projectPopupMobile = (id, title, discription, imageLink, technologies, liv
 `;
 
 projectList.forEach((project) => {
-  const htmlPop = projectPopupMobile(project.id,
+  const htmlPop = projectPopupMobile(
+    project.id,
     project.title,
     project.discription,
     project.imageLink,
     project.technologies,
     project.liveLink,
-    project.sourceLink);
+    project.sourceLink,
+  );
   myWorksSection.innerHTML += htmlPop;
 });
 
@@ -190,3 +233,31 @@ myform.addEventListener('submit', (event) => {
     errorMessage.textContent = 'Your email should be in lowercase';
   }
 });
+
+// Local storage.
+const uname = document.getElementById('name-input');
+const message = document.getElementById('message');
+
+// for storing data
+function storeDatatoLocalStorge() {
+  const user = {
+    UserName: uname.value,
+    UserEmail: email.value,
+    UserMessage: message.value,
+  };
+
+  localStorage.setItem('UserData', JSON.stringify(user));
+}
+
+uname.addEventListener('focusout', storeDatatoLocalStorge);
+email.addEventListener('focusout', storeDatatoLocalStorge);
+message.addEventListener('focusout', storeDatatoLocalStorge);
+
+// for getting stored data:
+const UData = JSON.parse(localStorage.getItem('UserData'));
+
+if (UData) {
+  uname.value = UData.UserName;
+  email.value = UData.UserEmail;
+  message.value = UData.UserMessage;
+}
