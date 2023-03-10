@@ -190,3 +190,22 @@ myform.addEventListener('submit', (event) => {
     errorMessage.textContent = 'Your email should be in lowercase';
   }
 });
+
+// Local storage.
+const uname = document.getElementById('name-input');
+const message = document.getElementById('message');
+
+//for storing data
+function storeDatatoLocalStorge(){
+ const user ={
+  UserName : uname.value,
+  UserEmail : email.value,
+  UserMessage : message.value
+ };
+
+ localStorage.setItem('UserData', JSON.stringify(user));
+};
+
+
+//for getting stored data:
+const UData = JSON.parse(localStorage.getItem('UserData'));
