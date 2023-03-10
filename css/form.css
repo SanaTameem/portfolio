@@ -1,8 +1,12 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
 
 * {
   box-sizing: border-box;
+}
+
+.error-message {
+  color: #f00;
+  font-family: "Inter", sans-serif;
 }
 
 .all-footer-form-social {
@@ -25,7 +29,7 @@ footer {
 
 .footer-paragraph {
   text-align: center;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -57,14 +61,14 @@ footer {
   justify-content: center;
   align-items: center;
   width: 327px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .form-list-items input,
 .form-list-items textarea {
   width: 327px;
   font-style: normal;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
@@ -89,7 +93,7 @@ footer {
   border-radius: 4px;
   margin-top: 24px;
   letter-spacing: 0.03em;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -130,7 +134,7 @@ footer {
   /* width: 375px; */
   height: 189px;
   text-decoration: none;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -235,14 +239,13 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
- flex-wrap: wrap;
+    flex-wrap: wrap;
     height: 48px;
     padding: 0 12px;
     margin-top: 24px;
     font-size: 20px;
-   ;
   }
-  
+
   .social-list-form {
     display: flex;
     flex-direction: row;
