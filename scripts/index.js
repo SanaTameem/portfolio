@@ -255,3 +255,9 @@ message.addEventListener("focusout", storeDatatoLocalStorge);
 
 //for getting stored data:
 const UData = JSON.parse(localStorage.getItem("UserData"));
+
+if(UData){
+  uname.value = UData.UserName;
+  email.value = UData.UserEmail;
+  message.value = UData.UserMessage;
+}
