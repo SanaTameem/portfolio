@@ -190,7 +190,7 @@ projectList.forEach((project) => {
     project.liveLink,
     project.sourceLink,
   );
-  myWorksSection.innerHTML += htmlPop;
+  myWorksSection.innerHTML = htmlPop;
 });
 
 // Event listeners for see project buttons:
