@@ -182,8 +182,11 @@ Menu.addEventListener('click', () => {
 
 
 //form validation
+const myform = document.querySelector('.my-form');
+const email = document.getElementById('email-input');
+const errorMessage = document.querySelector('.error-message');
 
-console.log(email,errorMessage);
+
 myform.addEventListener('submit',(event)=>{
   if(email.value!== email.value.toLowerCase()){
     event.preventDefault();
