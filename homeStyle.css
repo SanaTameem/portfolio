@@ -128,7 +128,7 @@ section.visible {
 }
 
 .hero {
-  background-image: url(../Images/header-illsutration-mobile@2x.png);
+  background-image: url(./Images/header-illsutration-mobile@2x.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -218,7 +218,7 @@ section.visible {
 
 @media screen and (min-width: 786px) {
   .home-page {
-    background-image: url("../Images/Header-llustration-desktop.svg");
+    background-image: url("./Images/Header-llustration-desktop.svg");
     background-repeat: no-repeat;
     background-size: 105%;
     width: 100%;
@@ -337,7 +337,7 @@ section.visible {
 .about-me-text {
   display: flex;
   justify-content: center;
-  background-image: url("../Images/Mask\ Group.svg");
+  background-image: url("./Images/Mask\ Group.svg");
   background-repeat: no-repeat;
   background-position-x: right;
 }
@@ -371,7 +371,7 @@ section.visible {
 }
 
 .about-me-btn {
-  background-image: url("../Images/Frame\ \(3\).svg");
+  background-image: url("./Images/Frame\ \(3\).svg");
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
@@ -403,7 +403,7 @@ section.visible {
 
 @media screen and (min-width: 768px) {
   .about-me {
-    background-image: url("../Images/Frame\ \(4\).svg");
+    background-image: url("./Images/Frame\ \(4\).svg");
     background-repeat: no-repeat;
     background-position-x: right;
     margin-top: 110px;
@@ -426,7 +426,7 @@ section.visible {
   }
 
   .about-me-describe {
-    background-image: url("../Images/illustration-about-me-2-desktop.svg");
+    background-image: url("./Images/illustration-about-me-2-desktop.svg");
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
@@ -581,7 +581,7 @@ footer {
 
 @media screen and (min-width: 786px) {
   .all-footer-form-social {
-    background-image: url("../Images/Frame\ \(5\).svg");
+    background-image: url("./Images/Frame\ \(5\).svg");
     background-repeat: no-repeat;
     background-position-x: left;
     background-position-y: bottom;
@@ -595,7 +595,7 @@ footer {
   }
 
   .back-imge {
-    background-image: url("../Images/Frame\ \(6\).svg");
+    background-image: url("./Images/Frame\ \(6\).svg");
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: bottom;
@@ -618,7 +618,7 @@ footer {
   .middle-pic {
     width: 350px;
     height: 300px;
-    background-image: url("../Images/illustration-2-contact-form-desktop.svg");
+    background-image: url("./Images/illustration-2-contact-form-desktop.svg");
     background-repeat: no-repeat;
     background-position: left 190px bottom 0;
   }
@@ -903,7 +903,7 @@ footer {
 }
 
 .close-btn-image55 {
-  content: url("../Images/Icon - Cancel.svg");
+  content: url("./Images/Icon - Cancel.svg");
 }
 
 .close-btn {
@@ -1068,7 +1068,7 @@ footer {
   }
 
   .close-btn-image55 {
-    content: url("../Images/Disabled3.svg");
+    content: url("./Images/Disabled3.svg");
   }
 
   .button-heading {
