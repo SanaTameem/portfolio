@@ -90,7 +90,6 @@ projectList.forEach((project) => {
     project.technologies,
     project.liveLink,
     project.sourceLink);
-  // myWorksSection.insertAdjacentHTML('afterend',htmlAdd);
   myWorksSection.innerHTML += htmlAdd;
 });
 
