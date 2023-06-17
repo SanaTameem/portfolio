@@ -7,32 +7,32 @@ const myWorksSection = document.querySelector('.myworks-container');
 const projectList = [
   {
     id: 1,
-    title: 'Multi-Post Stories',
-    discription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    imageLink: ['Images/Snapshoot Portfolio.svg', 'Images/Snapshoot Portfolio3.svg'],
-    technologies: ['Ruby on Rains', 'Bootstrap', 'Javascript', 'html'],
-    liveLink: '#',
-    sourceLink: '#',
+    title: 'Conference Page',
+    discription: 'The Conference Page is a responsive and dynamic website created using HTML, CSS and javascript and designed to provide information about Web Science, celebrating its 13th year of interrogating.',
+    imageLink: ['./Images/1.png', 'Images/Snapshoot Portfolio3.svg'],
+    technologies: ['HTML', 'CSS', 'Javascript'],
+    liveLink: 'https://sanatameem.github.io/Capstone-conference-page/',
+    sourceLink: 'https://github.com/SanaTameem/Capstone-conference-page',
   },
 
   {
     id: 2,
-    title: 'Game Project',
-    discription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    imageLink: ['Images/Snapshoot Portfolio.svg', 'Images/Snapshoot Portfolio3.svg'],
-    technologies: ['Ruby on Rains', 'Bootstrap', 'Javascript', 'html', 'Codepen', 'Codekit'],
-    liveLink: '#',
-    sourceLink: '#',
+    title: 'Awesome Books',
+    discription: '📚 Awesome Book is a simple project created using HTML , CSS and more Javascript which a user can add a book\'s title and author into it and can remove it from their list and it will be saved in the local storage of the browser so the user could have access to their list anytime.',
+    imageLink: ['./Images/2.png', 'Images/Snapshoot Portfolio3.svg'],
+    technologies: ['HTML', 'CSS', 'Javascript'],
+    liveLink: 'https://sanatameem.github.io/Awesome-Books-Project/',
+    sourceLink: 'https://github.com/SanaTameem/Awesome-Books-Project',
   },
 
   {
     id: 3,
-    title: 'Social App',
-    discription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    imageLink: ['Images/Snapshoot Portfolio.svg', 'Images/Snapshoot Portfolio3.svg'],
-    technologies: ['Ruby on Rains', 'Bootstrap', 'Javascript', 'html'],
-    liveLink: '#',
-    sourceLink: '#',
+    title: 'To do List',
+    discription: '📑"To-do list" is a tool that helps to organize a day which is built using ES6 and Webpack. It simply lists the tasks that a user wants to do and allows them to mark the tasks as completed or manage their list of tasks by adding extra tasks or removing existing ones.',
+    imageLink: ['./Images/3.png', 'Images/Snapshoot Portfolio3.svg'],
+    technologies: ['HTML', 'CSS', 'Javascript', 'Webpack'],
+    liveLink: 'https://sanatameem.github.io/To-do-List/dist/',
+    sourceLink: 'https://github.com/SanaTameem/To-do-List',
   },
 
   {
@@ -67,14 +67,13 @@ const projectList = [
 ];
 
 const projectStructure = (id, title, discription, imageLink, technologies) => `
-<div class="first-container">
+<div class="first-container container-${id}">
 <div class="second-container">
  <h4 class="title-languages">${title}</h4>
  <ul class="list-languages">
    <li class="languages">${technologies[0]}</li>
    <li class="languages">${technologies[1]}</li>
    <li class="languages">${technologies[2]}</li>
-   <li class="languages">${technologies[3]}</li>
  </ul>
  <div class="container2-btn">
    <button type="button" class="see-project" id="project-${id}">See Project</button>
@@ -91,7 +90,6 @@ projectList.forEach((project) => {
     project.technologies,
     project.liveLink,
     project.sourceLink);
-  // myWorksSection.insertAdjacentHTML('afterend',htmlAdd);
   myWorksSection.innerHTML += htmlAdd;
 });
 
@@ -101,7 +99,7 @@ const projectPopupMobile = (id, title, discription, imageLink, technologies, liv
 <div class="overlay" id="popup-${id}">
 <div class="popup-main-container">
 <div class="project-image-container">
-  <img class="project-image" src="${imageLink[0]}" alt="proj-img">
+  <img class="project-image project-${id}-image" src="${imageLink[0]}" alt="proj-img">
   <img class="project-image2" src="Images/Snapshoot Portfolio3.svg" alt="proj-img">
   <div class="right-top-corner" >
     <button class="close-btn" id="close-btn-${id}">
@@ -126,11 +124,11 @@ const projectPopupMobile = (id, title, discription, imageLink, technologies, liv
   
   <div class="btn-container pop-div-3">
     <button class="view-project-btn1">
-      <a href="${liveLink}">See Live</a>
+      <a href="${liveLink}" target="_blank">See Live</a>
       <img src="Images/Icon - Export.svg" alt="icon2">
     </button>
     <button class="view-project-btn2">
-    <a href="${sourceLink}">See Source</a>
+    <a href="${sourceLink}" target="_blank">See Source</a>
       <img src="Images/Icon -GitHub.svg" alt="github">
     </button>
   </div>
