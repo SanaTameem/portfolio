@@ -7,73 +7,73 @@ const myWorksSection = document.querySelector('.myworks-container');
 const projectList = [
   {
     id: 1,
-    title: 'Conference Page',
-    discription: 'The Conference Page is a responsive and dynamic website created using HTML, CSS and javascript and designed to provide information about Web Science, celebrating its 13th year of interrogating.',
-    imageLink: ['./Images/1.png', 'Images/Snapshoot Portfolio3.svg'],
-    technologies: ['HTML', 'CSS', 'Javascript'],
-    liveLink: 'https://sanatameem.github.io/Capstone-conference-page/',
-    sourceLink: 'https://github.com/SanaTameem/Capstone-conference-page',
-  },
-
-  {
-    id: 2,
-    title: 'Awesome Books',
-    discription: '📚 Awesome Book is a simple project created using HTML , CSS and more Javascript which a user can add a book\'s title and author into it and can remove it from their list and it will be saved in the local storage of the browser so the user could have access to their list anytime.',
-    imageLink: ['./Images/2.png', 'Images/Snapshoot Portfolio3.svg'],
-    technologies: ['HTML', 'CSS', 'Javascript'],
-    liveLink: 'https://sanatameem.github.io/Awesome-Books-Project/',
-    sourceLink: 'https://github.com/SanaTameem/Awesome-Books-Project',
-  },
-
-  {
-    id: 3,
     title: 'To do List',
-    discription: '📑"To-do list" is a tool that helps to organize a day which is built using ES6 and Webpack. It simply lists the tasks that a user wants to do and allows them to mark the tasks as completed or manage their list of tasks by adding extra tasks or removing existing ones.',
+    discription: 'To-do list is a tool that helps to organize a day which is built using ES6 and Webpack. It simply lists the tasks that a user wants to do and allows them to mark the tasks as completed or manage their list of tasks by adding extra tasks or removing existing ones.',
     imageLink: ['./Images/3.png', 'Images/Snapshoot Portfolio3.svg'],
-    technologies: ['HTML', 'CSS', 'Javascript', 'Webpack'],
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Webpack'],
     liveLink: 'https://sanatameem.github.io/To-do-List/dist/',
     sourceLink: 'https://github.com/SanaTameem/To-do-List',
   },
 
   {
+    id: 2,
+    title: 'Mealicious Gallery',
+    discription: 'Mealicious Gallery is your go-to destination for exploring a diverse range of meals. Like and comment on your favorite dishes, and engage with a community of food enthusiasts. With a responsive design, it is powered by Webpack.',
+    imageLink: ['./Images/mealicious.png', 'Images/Snapshoot Portfolio3.svg'],
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Webpack'],
+    liveLink: 'https://sanatameem.github.io/Mealicious-Gallery-JS-Capstone/',
+    sourceLink: 'https://github.com/SanaTameem/Mealicious-Gallery-JS-Capstone',
+  },
+
+  {
+    id: 3,
+    title: 'Math Magicians',
+    discription: 'Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: ➕➖✖️➗ Make simple calculations and read a random math-related quote.',
+    imageLink: ['./Images/math-magicians.png', 'Images/Snapshoot Portfolio3.svg'],
+    technologies: ['HTML', 'CSS', 'JavaScript', 'React'],
+    liveLink: 'https://math-magicians-deploy.onrender.com/',
+    sourceLink: 'https://github.com/SanaTameem/math-magicians',
+  },
+
+  {
     id: 4,
-    title: 'Photo App',
-    discription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    imageLink: ['Images/Snapshoot Portfolio.svg', 'Images/Snapshoot Portfolio3.svg'],
-    technologies: ['Ruby on Rains', 'Bootstrap', 'Javascript', 'html'],
-    liveLink: '#',
-    sourceLink: '#',
+    title: 'Space Traveler\'s Hub',
+    discription: 'Explore the cosmos with us! Embark on captivating space missions and book rockets for an unforgettable journey into the unknown. Get ready to experience the thrill of space travel like never before!',
+    imageLink: ['./Images/space.png', 'Images/Snapshoot Portfolio3.svg'],
+    technologies: ['HTML', 'CSS', 'JavaScript', 'React'],
+    liveLink: 'https://space-travelers-hub-x05d.onrender.com/',
+    sourceLink: 'https://github.com/SanaTameem/space-travelers-hub',
   },
 
   {
     id: 5,
-    title: 'Calculator',
-    discription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    imageLink: ['Images/Snapshoot Portfolio.svg', 'Images/Snapshoot Portfolio3.svg'],
-    technologies: ['Ruby on Rains', 'Bootstrap', 'Javascript', 'html'],
-    liveLink: '#',
-    sourceLink: '#',
+    title: 'TV Maze',
+    discription: 'Explore & discover TV shows from all genres with TVMAZE Shows! Powered by TVMAZE API, our user-friendly platform offers info & summaries on drama, comedy, sci-fi, reality TV & more! Explore now!',
+    imageLink: ['./Images/tvmaze.jpg', 'Images/Snapshoot Portfolio3.svg'],
+    technologies: ['HTML', 'CSS', 'JavaScript', 'React'],
+    liveLink: 'https://tvmaze-shows.onrender.com/',
+    sourceLink: 'https://github.com/SanaTameem/react-capstone-tvmaze',
   },
 
   {
     id: 6,
-    title: 'Help the Innocent bird Game',
-    discription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    imageLink: ['Images/Snapshoot Portfolio.svg', 'Images/Snapshoot Portfolio3.svg'],
-    technologies: ['Ruby on Rains', 'Bootstrap', 'Javascript', 'html'],
-    liveLink: '#',
-    sourceLink: '#',
+    title: 'Test Drive Zone',
+    discription: 'This app allows users to schedule test drive appointments for cars. Users can add, delete, and view details of available cars, making it easy to manage appointments for test drives.',
+    imageLink: ['./Images/test-drive-zone.png', 'Images/Snapshoot Portfolio3.svg'],
+    technologies: ['JavaScript', 'Bootstrap', 'React', 'Rails'],
+    liveLink: 'https://car-rent-swa4.onrender.com/',
+    sourceLink: 'https://github.com/SanaTameem/book-an-appointment-back-end',
   },
 ];
 
-const projectStructure = (id, title, discription, imageLink, technologies) => `
+const projectStructure = (id, title, discription, imageLink, technologies) => {
+  const techListItems = technologies.map((tech) => `<li class="languages">${tech}</li>`).join('');
+  return `
 <div class="first-container container-${id}">
 <div class="second-container">
  <h4 class="title-languages">${title}</h4>
  <ul class="list-languages">
-   <li class="languages">${technologies[0]}</li>
-   <li class="languages">${technologies[1]}</li>
-   <li class="languages">${technologies[2]}</li>
+    ${techListItems}
  </ul>
  <div class="container2-btn">
    <button type="button" class="see-project" id="project-${id}">See Project</button>
@@ -81,6 +81,7 @@ const projectStructure = (id, title, discription, imageLink, technologies) => `
 </div>
 </div>
 `;
+};
 
 projectList.forEach((project) => {
   const htmlAdd = projectStructure(project.id,
@@ -95,7 +96,11 @@ projectList.forEach((project) => {
 
 // Pop up section
 // pop up for mobile:
-const projectPopupMobile = (id, title, discription, imageLink, technologies, liveLink, sourceLink) => `
+const projectPopupMobile = (
+  id, title, discription, imageLink, technologies, liveLink, sourceLink,
+) => {
+  const techListItems = technologies.map((tech) => `<li class="languages">${tech}</li>`).join('');
+  return `
 <div class="overlay" id="popup-${id}">
 <div class="popup-main-container">
 <div class="project-image-container">
@@ -113,9 +118,7 @@ const projectPopupMobile = (id, title, discription, imageLink, technologies, liv
     <h2 class="title-popup">${title}
     </h2>
     <ul class="tech-used">
-        <li>${technologies[0]}</li>
-        <li>${technologies[1]}</li>
-        <li>${technologies[2]}</li>
+        ${techListItems}
     </ul>
   </div>
   <div class="pop-div-2"> 
@@ -136,6 +139,7 @@ const projectPopupMobile = (id, title, discription, imageLink, technologies, liv
 </div>
 </div>
 `;
+};
 
 projectList.forEach((project) => {
   const htmlPop = projectPopupMobile(project.id,
@@ -187,4 +191,68 @@ myform.addEventListener('submit', (event) => {
     event.preventDefault();
     errorMessage.textContent = 'Your email should be in lowercase';
   }
+});
+
+// Typewriter effect
+// let i = 0;
+// const text = "Hey there, I’m Sana!. I’m a software developer!";
+// const typeWriter = () => {
+//   if (i < text.length) {
+//     const heroTitle = document.querySelector('.hero-title');
+//     if (text.charAt(i) === '.') {
+//       heroTitle.innerHTML += '<br>';
+//     } else {
+//       heroTitle.innerHTML += text.charAt(i);
+//     }
+//     i++;
+//     setTimeout(typeWriter, 70);
+//   }
+// };
+
+// window.onload = function () {
+//   typeWriter();
+// };
+
+const textElement = document.querySelector('.hero-title');
+const textArray = ['Hey there, I’m Sana Tameem!', 'I’m a Software Engineer!', 'I’m a Full-Stack Developer!'];
+let index = 0;
+let isDeleting = false;
+let typingSpeed = 100;
+
+function type() {
+  const currentText = textArray[index];
+  if (!isDeleting) {
+    textElement.textContent = currentText.substring(0, textElement.textContent.length + 1);
+  } else {
+    textElement.textContent = currentText.substring(0, textElement.textContent.length - 1);
+  }
+
+  typingSpeed = isDeleting ? 50 : 60;
+
+  if (!isDeleting && textElement.textContent === currentText) {
+    isDeleting = true;
+    typingSpeed = 200; // Wait before deleting
+  } else if (isDeleting && textElement.textContent === '') {
+    isDeleting = false;
+    index = (index + 1) % textArray.length; // Move to the next sentence
+  }
+
+  setTimeout(type, typingSpeed);
+}
+
+setTimeout(type, 100); // Start the typing effect after 1 second
+
+
+// Adding functionality to form to send email to me :
+const contactForm = document.querySelector('.my-form');
+contactForm.addEventListener('submit', function(event) {
+  event.preventDefault();
+
+  const formData = new FormData(contactForm);
+  const email = formData.get('userEmail');
+  const name = formData.get('userName');
+  const message = formData.get('userMessage');
+  const mailtoLink = `mailto:sanatameem38@gmail.com?subject=Message from ${name} ${email}&body=${message}`;
+
+  window.location.href = mailtoLink;
 });
