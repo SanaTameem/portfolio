@@ -81,8 +81,6 @@ body {
 
 .view-project-btn1 a {
   text-decoration: none;
-
-  /* font-family: "Inter", sans-serif; */
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -92,8 +90,6 @@ body {
 
 .view-project-btn2 a {
   text-decoration: none;
-
-  /* font-family: "Inter", sans-serif; */
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -127,8 +123,6 @@ section.visible {
   color: #3a4a42;
   display: flex;
   padding-left: 28px;
-
-  /* font-family: "Inter", sans-serif; */
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -170,7 +164,6 @@ section.visible {
 }
 
 .hero-title {
-  /* width: 100%; */
   margin-top: 80px;
   font-size: 40px;
   font-weight: 700;
@@ -178,8 +171,6 @@ section.visible {
   text-align: center;
   line-height: 52px;
   font-style: normal;
-
-  /* font-family: "Inter", sans-serif; */
   text-shadow:
     -1px -1px 0 #fff,
     1px -1px 0 #fff,
@@ -202,8 +193,6 @@ section.visible {
   width: 90%;
   height: 164px;
   margin-top: 58px;
-
-  /* margin-left: 24px; */
 }
 
 .hero-description {
@@ -214,8 +203,6 @@ section.visible {
   text-align: center;
   font-style: normal;
   color: #172b4d;
-
-  /* font-family: "Inter", sans-serif; */
 }
 
 .social {
@@ -258,9 +245,6 @@ section.visible {
 
 @media screen and (min-width: 786px) {
   .home-page {
-    /* background-image: url("./Images/Header-llustration-desktop.svg");
-    background-repeat: no-repeat;
-    background-size: 105%; */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -276,10 +260,6 @@ section.visible {
     justify-content: center;
     align-items: center;
     width: 100%;
-
-    /* margin-top: 100px; */
-
-    /* height: 100vh; */
     padding: 5% 0 25% 0;
   }
 
@@ -297,15 +277,11 @@ section.visible {
     width: 90%;
     justify-content: center;
     align-items: center;
-
-    /* background: rgba(255, 255, 255, 0.8); */
   }
 
   .nav-desktop-link {
     float: left;
     padding: 0 20px;
-
-    /* font-family: "Inter", sans-serif; */
     font-weight: 400;
     font-size: 15px;
     line-height: 20px;
@@ -316,8 +292,6 @@ section.visible {
 
   .nav-desktop-link a {
     text-decoration: none;
-
-    /* font-family: "Inter", sans-serif; */
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
@@ -361,8 +335,6 @@ section.visible {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    /* height: 114px; */
     width: 73%;
     margin-top: 20px;
   }
@@ -378,8 +350,6 @@ section.visible {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    /* margin-left: 44px; */
   }
 
   .social-list {
@@ -406,8 +376,6 @@ section.visible {
 .about-me-heading {
   padding-top: 68px;
   color: #172b4d;
-
-  /* font-family: "Inter", sans-serif; */
   font-weight: 700;
   font-size: 40px;
   text-align: center;
@@ -424,8 +392,6 @@ section.visible {
 
 .about-me-paragraph {
   color: #172b4d;
-
-  /* font-family: "Inter", sans-serif; */
   font-weight: 400;
   font-size: 20px;
   text-align: center;
@@ -449,8 +415,6 @@ section.visible {
   padding: 12px;
   gap: 10px;
   background: linear-gradient(to right, #36b37e, #1e488f);
-
-  /* font-family: "Inter", sans-serif; */
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -512,8 +476,6 @@ section.visible {
   margin-top: 24px;
   width: 50%;
   color: #f00;
-
-  /* font-family: "Inter", sans-serif; */
 }
 
 .all-footer-form-social {
@@ -536,8 +498,6 @@ footer {
 
 .footer-paragraph {
   text-align: center;
-
-  /* font-family: "Inter", sans-serif; */
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -574,17 +534,12 @@ footer {
   justify-content: center;
   align-items: center;
   width: 100%;
-
-  /* font-family: "Inter", sans-serif; */
 }
 
 .form-list-items input,
 .form-list-items textarea {
-  /* width: 327px; */
   width: 100%;
   font-style: normal;
-
-  /* font-family: "Inter", sans-serif; */
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
@@ -608,8 +563,6 @@ footer {
   border-radius: 4px;
   margin-top: 24px;
   letter-spacing: 0.03em;
-
-  /* font-family: "Inter", sans-serif; */
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -643,15 +596,11 @@ footer {
 
 .my-email-div {
   margin-top: 19px;
-
-  /* padding-bottom: 147px; */
 }
 
 .my-email {
   height: 189px;
   text-decoration: none;
-
-  /* font-family: "Inter", sans-serif; */
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -666,8 +615,6 @@ footer {
     background-repeat: no-repeat;
     background-position-x: left;
     background-position-y: bottom;
-
-    /* border-bottom: 1px solid #dfe1e6; */
     height: 600px;
     display: flex;
     justify-content: space-around;
@@ -675,13 +622,6 @@ footer {
     flex-direction: row;
     width: 100%;
     padding: 0 5%;
-
-    /* display: grid; */
-
-    /* grid-template-columns: 463px 684px; */
-
-    /* column-gap: 20px;
-    grid-template-rows: 356px 40px; */
     margin-top: 164px;
   }
 
@@ -694,7 +634,6 @@ footer {
   }
 
   .footer {
-    /* padding-top: 110px; */
     width: 30%;
   }
 
@@ -819,34 +758,13 @@ footer {
 }
 
 .languages-heading {
-  /* width: 337px; */
   height: 32px;
-
-  /* font-family: 'Inter', sans-serif; */
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
   text-align: center;
   color: #172b4d;
 }
-
-/* .lang-list1 {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  padding-top: 8px;
-  height: 40%;
-}
-
-.lang-list2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  padding-top: 8px;
-  flex-wrap: wrap;
-  height: 40%;
-} */
 
 .lang-list1,
 .lang-list2,
@@ -865,8 +783,6 @@ footer {
   margin-top: 24px;
   margin-left: 8px;
   padding: 12px;
-
-  /* font-family: "Inter", sans-serif; */
   font-weight: 600;
   font-size: 14px;
   font-style: normal;
@@ -878,10 +794,6 @@ footer {
   border-radius: 8px;
   list-style-type: none;
 }
-
-/* .end-languages:hover {
-  background: linear-gradient(to right, #36B37E, #1E488F);
-} */
 
 @media screen and (min-width: 768px) {
   .language-main-container {
@@ -917,7 +829,6 @@ footer {
 }
 
 .myworks-text {
-  /* font-family: "Inter", sans-serif; */
   color: #172b4d;
   font-weight: 700;
   font-size: 40px;
@@ -985,8 +896,6 @@ footer {
 
 .title-popup {
   width: 311px;
-
-  /* font-family: "Inter", sans-serif; */
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -1043,8 +952,6 @@ footer {
 
 .popup-descrip {
   width: 311px;
-
-  /* font-family: "Inter", sans-serif; */
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1156,7 +1063,6 @@ footer {
 }
 
 .title-languages {
-  /* font-family: "Inter", sans-serif; */
   font-weight: 600;
   font-size: 24px;
   text-align: center;
@@ -1178,11 +1084,7 @@ footer {
 .languages {
   height: 40px;
   text-align: center;
-
-  /* margin-left: 5px; */
   padding: 10px 8px;
-
-  /* font-family: "Inter", sans-serif; */
   font-weight: 600;
   font-size: 14px;
   line-height: 16px;
@@ -1200,11 +1102,7 @@ footer {
 
 .see-project {
   padding: 12px;
-
-  /* background: #091e42; */
   background: linear-gradient(to right, #36b37e, #1e488f);
-
-  /* font-family: "Inter", sans-serif; */
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -1216,14 +1114,12 @@ footer {
 }
 
 .see-project:hover {
-  /* background: #008552; */
   transform: translateY(-7px);
   background: #172b4d;
 }
 
 @media screen and (min-width: 768px) {
   .project-image-container {
-    /* margin-top: 50px; */
     padding-top: 0;
   }
 
@@ -1263,8 +1159,6 @@ footer {
     display: flex;
     flex-direction: row;
     margin-top: 60px;
-
-    /* font-family: "Inter", sans-serif; */
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -1310,7 +1204,6 @@ footer {
   }
 
   .works {
-    /* margin-top: 380px; */
     width: 100%;
   }
 
@@ -1425,9 +1318,6 @@ footer {
   .myworks-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-
-    /* padding-left: 88px;
-    padding-right: 70px; */
   }
 
   .language-sub-container {
@@ -1499,8 +1389,6 @@ footer {
 
   .container-all-languages {
     column-gap: 12px;
-
-    /* padding-left: 42px; */
   }
 
   .footer-paragraph {

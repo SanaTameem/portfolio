@@ -194,25 +194,6 @@ myform.addEventListener('submit', (event) => {
 });
 
 // Typewriter effect
-// let i = 0;
-// const text = "Hey there, I’m Sana!. I’m a software developer!";
-// const typeWriter = () => {
-//   if (i < text.length) {
-//     const heroTitle = document.querySelector('.hero-title');
-//     if (text.charAt(i) === '.') {
-//       heroTitle.innerHTML += '<br>';
-//     } else {
-//       heroTitle.innerHTML += text.charAt(i);
-//     }
-//     i++;
-//     setTimeout(typeWriter, 70);
-//   }
-// };
-
-// window.onload = function () {
-//   typeWriter();
-// };
-
 const textElement = document.querySelector('.hero-title');
 const textArray = ['Hey there, I’m Sana Tameem!', 'I’m a Software Engineer!', 'I’m a Full-Stack Developer!'];
 let index = 0;
@@ -240,7 +221,7 @@ function type() {
   setTimeout(type, typingSpeed);
 }
 
-setTimeout(type, 100); // Start the typing effect after 1 second
+setTimeout(type, 100);
 
 // Adding functionality to form to send email to me :
 const contactForm = document.querySelector('.my-form');
