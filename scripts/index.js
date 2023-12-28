@@ -242,10 +242,9 @@ function type() {
 
 setTimeout(type, 100); // Start the typing effect after 1 second
 
-
 // Adding functionality to form to send email to me :
 const contactForm = document.querySelector('.my-form');
-contactForm.addEventListener('submit', function(event) {
+contactForm.addEventListener('submit', (event) => {
   event.preventDefault();
 
   const formData = new FormData(contactForm);
