@@ -193,6 +193,34 @@ myform.addEventListener('submit', (event) => {
   }
 });
 
+// Local storage.
+const uname = document.getElementById('name-input');
+// const message = document.getElementById('message');
+
+// for storing data
+function storeDatatoLocalStorge() {
+  const user = {
+    UserName: uname.value,
+    UserEmail: email.value,
+    // UserMessage: message.value,
+  };
+
+  localStorage.setItem('UserData', JSON.stringify(user));
+}
+
+uname.addEventListener('focusout', storeDatatoLocalStorge);
+email.addEventListener('focusout', storeDatatoLocalStorge);
+// message.addEventListener('focusout', storeDatatoLocalStorge);
+
+// for getting stored data:
+const UData = JSON.parse(localStorage.getItem('UserData'));
+
+if (UData) {
+  uname.value = UData.UserName;
+  email.value = UData.UserEmail;
+  // message.value = UData.UserMessage;
+}
+
 // Typewriter effect
 const textElement = document.querySelector('.hero-title');
 const textArray = ['Hey there, I’m Sana Tameem!', 'I’m a Software Engineer!', 'I’m a Full-Stack Developer!'];
