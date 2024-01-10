@@ -71,7 +71,7 @@ const projectStructure = (id, title, discription, imageLink, technologies) => {
   return `
 <div class="first-container container-${id}">
 <div class="second-container">
- <h4 class="title-languages">${title}</h4>
+ <h3 class="title-languages">${title}</h3>
  <ul class="list-languages">
     ${techListItems}
  </ul>
