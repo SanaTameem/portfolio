@@ -59,7 +59,7 @@ const projectList = [
     id: 6,
     title: 'Test Drive Zone',
     discription: 'This app allows users to schedule test drive appointments for cars. Users can add, delete, and view details of available cars, making it easy to manage appointments for test drives.',
-    imageLink: ['./Images/test-drive-zone.png', 'Images/Snapshoot Portfolio3.svg'],
+    imageLink: ['./Images/test-drive-zone.PNG', 'Images/Snapshoot Portfolio3.svg'],
     technologies: ['JavaScript', 'Bootstrap', 'React', 'Rails'],
     liveLink: 'https://car-rent-swa4.onrender.com/',
     sourceLink: 'https://github.com/SanaTameem/book-an-appointment-back-end',
