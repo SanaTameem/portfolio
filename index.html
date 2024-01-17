@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A curated portfolio showcasing my passion and skills in the web development. Explore my projects and creative endeavors.">
 
     <link rel="stylesheet" href="homeStyle.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"> -->
     <title>Portfolio</title>
 </head>
 <body>
@@ -18,130 +19,122 @@
     <img src="Images/Icon.svg" alt="cross-img" class="menu-icon-img">
   </span>
     <ul class="mobile-menu">
-      <li class="nav-desktop-link"> <a href="#work">Portfolio</a></li>
+      <li class="nav-desktop-link"> <a href="#home">Portfolio</a></li>
       <li  class="nav-desktop-link"> <a href="#about">About</a></li>
       <li  class="nav-desktop-link"> <a href="#contact">Contact</a></li>
     </ul>
   </section>
-    <header>
-      <nav class="nav-bar">
-          <a href="#" class="nav-title">Welcome</a>
-          <a href="#" class="hamburger"><img src="Images/Enabled.svg" alt="hamburger"></a>
-          <ul class="nav-desktop">
-            <li class="nav-desktop-link"> <a href="#work">Portfolio</a></li>
-            <li  class="nav-desktop-link"> <a href="#about">About</a></li>
-            <li  class="nav-desktop-link"> <a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
-    </header>
-    <section class="hero">
-      <div class="hero-main-container">
-        <div class="hero-container">
-                <h1 class="hero-title"> Hey there. I’m Sana <br>
-                    <span class="hero-span">I’m a software developer</span>
-                </h1>
-        </div>
-        <div class="hero-container2">
-            <p class="hero-description">I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-        </div>
+  <header class="header">
+    <nav class="nav-bar">
+        <a href="#" class="nav-title">Welcome</a>
+        <a href="#" class="hamburger"><img src="Images/Enabled.svg" alt="hamburger"></a>
+        <ul class="nav-desktop">
+          <li class="nav-desktop-link"> <a href="#home">Portfolio</a></li>
+          <li  class="nav-desktop-link"> <a href="#about">About</a></li>
+          <li  class="nav-desktop-link"> <a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+  </header>
+  <section class="hero" id="home">
+    <div class="hero-main-container">
+      <div class="hero-container">
+              <h1 class="hero-title"></h1>
+              
+      </div>
+      <div class="hero-container2">
+          <p class="hero-description">Proactive Software Developer studying at Microverse and Kabul University. Skilled in JavaScript, React, Redux, Ruby, and Ruby on Rails. Completed over 25 diverse web development projects remotely, demonstrating strong communication and teamwork. Passionate about AI, creative coding, photography, and solving puzzles. Experienced in mentoring and committed to making a positive impact in the digital world. Enthusiastic learner, with interests ranging from literature to travel and coffee.</p>
+      </div>
 
-        <div class="social">
-            <ul class="social-list">
-              <li class="icon"><a href="#"><img src="Images/github.svg" alt="github-img"></a></li>
-              <li class="icon"><a href="#"><img src="Images/Linkedin icon (1).svg" alt="linkedIn-img"></a></li>
-              <li class="icon"><a href="#"><img src="Images/angellist.svg" alt="angellist-img"></a></li>
-              <li class="icon"><a href="#"><img src="Images/twitter (3).svg" alt="twitter-img"></a></li>
-              <li class="icon"><a href="#"><img src="Images/medium (1).svg" alt="medium"></a></li>
-                
-                
-            </ul>
-        </div>
-        <div class="action-icon">
-            <a href="#"><img class="action" src="Images/Disabled.svg" alt="button-icon"></a>
-        </div>
+      <div class="social">
+          <ul class="social-list">
+            <li class="icon"><a href="https://github.com/SanaTameem" rel="noopener disown-opener" target="_blank"><img src="Images/github.svg" alt="github-img"></a></li>
+            <li class="icon"><a href="https://www.linkedin.com/in/sana-tameem/" rel="noopener disown-opener" target="_blank"><img src="Images/Linkedin icon (1).svg" alt="linkedIn-img"></a></li>
+            <li class="icon"><a href="https://wellfound.com/u/sana-tameem" rel="noopener disown-opener" target="_blank"><img src="Images/angellist.svg" alt="angellist-img"></a></li>
+            <li class="icon"><a href="https://twitter.com/sanooo2001" rel="noopener disown-opener" target="_blank"><img src="Images/twitter (3).svg" alt="twitter-img"></a></li>
+            <li class="icon"><a href="https://medium.com/@sanatameem38" rel="noopener disown-opener" target="_blank"><img src="Images/medium (1).svg" alt="medium"></a></li>
+          </ul>
+      </div>
+      <div class="action-icon">
+          <a href="#myworks-container"><img class="action" src="Images/Disabled.svg" alt="button-icon"></a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Project Popup -->
+
+  <!--My Works Section -->
+  <section class="works" id="work">
+      <div class="myworks-text-container">
+        <h2 class="myworks-text">My Recent Works</h2>
+      </div>
+      <div class="indicator">
+        <div class="indicator-img"></div>
       </div>
     </section>
 
+  <!-- Work Container Section  -->
+  <section class="myworks-container" id="myworks-container">
+  </section> 
 
-    <!-- Project Popup -->
-
-    <!--My Works Section -->
-    <section class="works" id="work">
-        <div class="myworks-text-container">
-          <h2 class="myworks-text">My Recent Works</h2>
-        </div>
-        <div class="indicator">
-          <div class="indicator-img"></div>
-        </div>
-      </section>
-
-      <!-- Work Container Section  -->
-     <section class="myworks-container">
-      </section> 
-
-      <!-- About-Me Section -->
-      <section class="about-me" id="about">
-        <div class="about-me-text">
-          <h3 class="about-me-heading">About me</h3>
-        </div>
-        <div class="about-me-describe">
-          <p class="about-me-paragraph">
-            I can help you build a product , feature or website Look through some
-            of my work and experience! If you like what you see and have a project
-            you need coded, don’t  hestiate to contact me.
-          </p>
-        </div>
-        <div class="about-me-btn">
-          <button type="button" class="get-resume">
-            Get My Resume
-          </button>
-        </div>
+  <!-- About-Me Section -->
+  <section class="about-me" id="about">
+    <div class="about-me-text">
+      <h3 class="about-me-heading">About me</h3>
+    </div>
+    <div class="about-me-describe">
+      <p class="about-me-paragraph">
+        As an advocate for continuous growth, I've dedicated over 1300 hours to mastering Data Structures, Algorithms, and full-stack development. A mentor to junior developers, I look forward to contributing my skills and creativity to the evolving digital landscape. Join me in navigating this dynamic journey of coding, creativity, and exploration!
+      </p>
+    </div>
+    <div class="about-me-btn">
+      <a href="./Images/Resume.pdf" download="sana's resume.pdf" class="get-resume">Get My Resume</a>
+    </div>
 <!--Languages section-->
-      </section>
-      <div class="container-all-languages">
-        
-          <div class="language-sub-container">
-            <img src="Images/icon-languages.svg" class="languages-icon" alt="language icons">
-            <h4 class="languages-heading" >Languages</h4>
-            <ul class="langList lang-list1">
-              <li class="end-languages">JavaScript</li>
-              <li class="end-languages">Ruby</li>
-              <li class="end-languages">Html</li>
-              <li class="end-languages">CSS</li>
-            </ul>
-          </div>
-
-
-          <div class="language-sub-container">
-            <img src="Images/icon-frameworks.svg" class="Images-icon" alt="Frameworks">
-            <h4 class="languages-heading" >Frameworks</h4>
-            <ul class="langList lang-list2">
-              <li class="end-languages">Bootstrap</li>
-              <li class="end-languages">Ruby on rails</li>
-              <li class="end-languages">RSpec</li>
-              <li class="end-languages">Capybara</li>
-              <li class="end-languages">Selenium</li>
-            </ul>
-          </div>
-
-          <div class="language-sub-container">
-            <img src="Images/icon-skills.svg" class="skills-icon" alt="background">
-            <h4 class="languages-heading" >Languages</h4>
-            <ul class="langList lang-list3">
-              <li class="end-languages">Codekit</li>
-              <li class="end-languages">GitHub</li>
-              <li class="end-languages">Codepen</li>
-              <li class="end-languages">Gitlab</li>
-              <li class="end-languages">Terminal</li>
-            </ul>
-          </div>
-          
+  </section>
+  <div class="container-all-languages">
+      <div class="language-sub-container">
+        <img src="Images/icon-languages.svg" class="languages-icon" alt="language icons">
+        <h3 class="languages-heading" >Languages</h3>
+        <ul class="langList lang-list1">
+          <li class="end-languages">HTML</li>
+          <li class="end-languages">CSS</li>
+          <li class="end-languages">JavaScript</li>
+          <li class="end-languages">Ruby</li>
+        </ul>
       </div>
 
+      <div class="language-sub-container">
+        <img src="Images/icon-frameworks.svg" class="Images-icon" alt="Frameworks">
+        <h3 class="languages-heading" >Frameworks</h3>
+        <ul class="langList lang-list2">
+          <li class="end-languages">Bootstrap</li>
+          <li class="end-languages">React</li>
+          <li class="end-languages">Redux</li>
+          <li class="end-languages">Ruby on Rails</li>
+          <li class="end-languages">RSpec</li>
+        </ul>
+      </div>
 
-<!--Form section discription-->
-<div class="back-imge">
-  <section class="all-footer-form-social" id="contact">
+      <div class="language-sub-container">
+        <img src="Images/icon-skills.svg" class="skills-icon" alt="background">
+        <h3 class="languages-heading" >Skills</h3>
+        <ul class="langList lang-list3">
+          <li class="end-languages">GitHub</li>
+          <li class="end-languages">Terminal</li>
+          <li class="end-languages">Figma</li>
+          <li class="end-languages">Replit</li>
+          <li class="end-languages">Render</li>
+          <li class="end-languages">Netlify</li>
+        </ul>
+      </div>
+      
+  </div>
+
+
+  <!--Form section discription-->
+  <div class="back-imge">
+    <section class="all-footer-form-social" id="contact">
       <div class="footer">
         <div class="footer-div">
           <p class="footer-paragraph">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
@@ -156,27 +149,27 @@
         <ul class="form-list">
           <li class="form-list-items"><input type="text" name="userName" id="name-input" placeholder="Full name" maxlength="30" required></li>
           <li class="form-list-items"><input type="email" name="userEmail" id="email-input" placeholder="Email address" required></li>
-          <li class="form-list-items"><textarea name="userMessage" id="message" cols="30" rows="10" maxlength="500" required placeholder="Enter text here">Enter text here</textarea></li>
+          <li class="form-list-items"><textarea name="userMessage" id="message" cols="30" rows="10" maxlength="500" required placeholder="Enter text here"></textarea></li>
         </ul>
         <div class="form-btn-div">
-            <button class="form-btn">Get in touch</button>
+            <button class="form-btn" type="submit">Get in touch</button>
             <span class="error-message"></span>
         </div>
       </form>
       <div class="social-form">
         <ul class="social-list-form">
-          <li class="icon"><a href="#"><img src="Images/github.svg" alt="github-img"></a></li>
-          <li class="icon"><a href="#"><img src="Images/Linkedin icon (1).svg" alt="linkedIn-img"></a></li>
-          <li class="icon"><a href="#"><img src="Images/angellist.svg" alt="angellist-img"></a></li>
-          <li class="icon"><a href="#"><img src="Images/twitter (3).svg" alt="twitter-img"></a></li>
-          <li class="icon"><a href="#"><img src="Images/medium (1).svg" alt="medium"></a></li>      
+          <li class="icon"><a href="https://github.com/SanaTameem" rel="noopener disown-opener" target="_blank"><img src="Images/github.svg" alt="github-img"></a></li>
+          <li class="icon"><a href="https://www.linkedin.com/in/sana-tameem/" rel="noopener disown-opener" target="_blank"><img src="Images/Linkedin icon (1).svg" alt="linkedIn-img"></a></li>
+          <li class="icon"><a href="https://wellfound.com/u/sana-tameem" rel="noopener disown-opener" target="_blank"><img src="Images/angellist.svg" alt="angellist-img"></a></li>
+          <li class="icon"><a href="https://twitter.com/sanooo2001" rel="noopener disown-opener" target="_blank"><img src="Images/twitter (3).svg" alt="twitter-img"></a></li>
+          <li class="icon"><a href="https://medium.com/@sanatameem38" rel="noopener disown-opener" target="_blank"><img src="Images/medium (1).svg" alt="medium"></a></li>      
         </ul>
       </div>
       <div class="my-email-div">
           <p class="my-email">sanatameem38@gmail.com</p>
       </div>
-    </div>
     </section>
+  </div>
 </section>
 
 
